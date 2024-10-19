@@ -14,14 +14,11 @@
     <textarea  class="result-style" value='{{result}}' disabled='true' style="text-align:right"  />
   </view>
   
-
-
-
   <!-- 男女选择 判断是否被选中-->
-  <view class="body-view"  >
-      男
+  <view class="body-view">
+      我的性别：男
       <switch class="switchClass" bindchange="switchChange"  />
-      女
+      女 (程序员清源)
   </view>
 
   <!-- 显示按钮功能 style="height:{{second_height}}px"-->
@@ -30,7 +27,7 @@
         <view class="item normal" bindtap="clickButton" id="{{id1}}">夫</view>
         <view class="item normal" bindtap="clickButton" id="{{id2}}">妻</view>
         <view class="item normal" bindtap="clickButton" id="{{id3}}">←</view>
-        <view class="item normal-orange" bindtap="clickButton" id="{{id4}}">AC</view>
+        <view class="item normal-orange" bindtap="clickButton" id="{{id4}}">清空</view>
     </view>
 
     <view class="btnGroup">
@@ -47,7 +44,7 @@
     </view>
     <view class="btnGroup">
         <view class="item normal" bindtap="clickButton" id="{{id15}}">?</view>
-        <view class="item normal" bindtap="clickButton" id="{{id13}}">互查</view>
-        <view class="item2 orange" bindtap="clickButton" id="{{id14}}">=</view>
+        <view class="item normal normal-orange" bindtap="clickButton" id="{{id13}}">互查身份</view>
+        <view class="item2 orange eqsetting" bindtap="clickButton" id="{{id14}}">=</view>
     </view>
   </view>

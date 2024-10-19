@@ -7,8 +7,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#333333",
-    "navigationBarTitleText": "亲戚称谓帮帮帮",
+    "navigationBarTitleText": "亲戚称谓计算器微信小程序",
     "navigationBarTextStyle":"white"
   }
-  
 }

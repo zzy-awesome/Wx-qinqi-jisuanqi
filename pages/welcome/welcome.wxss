@@ -101,3 +101,6 @@ page{
     background-color: #333333;
 }
 
+.eqsetting{
+  font-size: 40px;
+}
